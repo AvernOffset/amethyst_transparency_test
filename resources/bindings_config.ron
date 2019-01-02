@@ -1,0 +1,10 @@
+(
+    axes: {
+
+    },
+    actions: {
+        "swap_top_mid": [[Key(W)]],
+        "swap_mid_bot": [[Key(S)]],
+        "quit": [[Key(LControl), Key(Q)], [Key(RControl), Key(Q)]],
+    },
+)

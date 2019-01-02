@@ -5,6 +5,7 @@ Shows odd behavior with transparency layers. Probably a configuration error.
 It appears that some sprites get priority, and when placed at a higher z-axis, the transparent parts of a higher-priority sprite will write over lower-priority sprites with the clear color. (So in this example, the checkerboard has the highest priority and won't show anything through its transparent area, smiley is in the middle, allowing the checkerboard through but not the hex, and the hex has the least priority, and allows the other two sprites to display).
 
 W - Swap top and middle layers
+
 S - Swap middle and bottom layers
 
 Behavior in different configurations (listed from bottom-most layer to top-most)
